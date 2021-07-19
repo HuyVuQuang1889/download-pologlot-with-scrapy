@@ -1,0 +1,180 @@
+
+E:\Ngoai ngu\French\FIA\Audio\fia>scrapy crawl chapter
+2021-02-20 17:30:58 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: fia)
+2021-02-20 17:30:58 [scrapy.utils.log] INFO: Versions: lxml 3.6.4.0, libxml2 2.9.4, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 17.5.0, Python 3.5.6 |Anaconda 4.2.0 (64-bit)| (default, Aug 26 2018, 16:05:27) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.0.0 (OpenSSL 1.0.2u  20 Dec 2019), cryptography 1.7.1, Platform Windows-10-10.0.10240-SP0
+2021-02-20 17:30:58 [scrapy.crawler] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'fia.spiders', 'BOT_NAME': 'fia', 'SPIDER_MODULES': ['fia.spiders']}
+2021-02-20 17:30:58 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',                                                                                  'scrapy.extensions.corestats.CoreStats',                                                                                'scrapy.extensions.telnet.TelnetConsole']
+2021-02-20 17:30:59 [scrapy.middleware] INFO: Enabled downloader middlewares:                                           ['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-02-20 17:30:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-02-20 17:30:59 [scrapy.middleware] INFO: Enabled item pipelines:
+['fia.pipelines.FiaPipeline', 'scrapy.pipelines.files.FilesPipeline']
+2021-02-20 17:30:59 [scrapy.core.engine] INFO: Spider opened
+2021-02-20 17:30:59 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-02-20 17:30:59 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2021-02-20 17:31:00 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/index.php> from <GET http://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/index.php>
+2021-02-20 17:31:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/index.php> (referer: None)
+2021-02-20 17:31:59 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2021-02-20 17:32:59 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-02-20 17:33:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.03_Compr%C3%A9hension_auditive_et_.mp3> (referer: None)
+2021-02-20 17:33:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.03_Compr%C3%A9hension_auditive_et_.mp3> referred in <None>
+2021-02-20 17:33:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_12.mp3> (referer: None)
+2021-02-20 17:33:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_12.mp3> referred in <None>
+2021-02-20 17:33:59 [scrapy.extensions.logstats] INFO: Crawled 3 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+2021-02-20 17:34:02 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.00_Texte.mp3> (failed 1 times): User timeout caused connection failure: Getting https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.00_Texte.mp3 took longer than 180.0 seconds..
+2021-02-20 17:34:02 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_01-03.mp3> (failed 1 times): User timeout caused connection failure: Getting https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_01-03.mp3 took longer than 180.0 seconds..
+2021-02-20 17:34:02 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_04-06.mp3> (failed 1 times): User timeout caused connection failure: Getting https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_04-06.mp3 took longer than 180.0 seconds..
+2021-02-20 17:34:02 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_07-08.mp3> (failed 1 times): User timeout caused connection failure: Getting https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_07-08.mp3 took longer than 180.0 seconds..
+2021-02-20 17:34:02 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_09-11.mp3> (failed 1 times): User timeout caused connection failure: Getting https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_09-11.mp3 took longer than 180.0 seconds..
+2021-02-20 17:34:02 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.02_Compr%C3%A9hension_auditive_et_.mp3> (failed 1 times): User timeout caused connection failure: Getting https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.02_Compr%C3%A9hension_auditive_et_.mp3 took longer than 180.0 seconds..
+2021-02-20 17:34:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.08_Activation.mp3> (referer: None)
+2021-02-20 17:34:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.08_Activation.mp3> referred in <None>
+2021-02-20 17:34:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.11_Observation.mp3> (referer: None)
+2021-02-20 17:34:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.11_Observation.mp3> referred in <None>
+2021-02-20 17:34:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.06_Observation.mp3> (referer: None)
+2021-02-20 17:34:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.06_Observation.mp3> referred in <None>
+2021-02-20 17:34:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.07_Observation.mp3> (referer: None)
+2021-02-20 17:34:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.07_Observation.mp3> referred in <None>
+2021-02-20 17:34:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.04_Observation_et_discriminat.mp3> (referer: None)
+2021-02-20 17:34:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.04_Observation_et_discriminat.mp3> referred in <None>
+2021-02-20 17:34:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.05_Activation_orale.mp3> (referer: None)
+2021-02-20 17:34:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.05_Activation_orale.mp3> referred in <None>
+2021-02-20 17:34:59 [scrapy.extensions.logstats] INFO: Crawled 9 pages (at 6 pages/min), scraped 0 items (at 0 items/min)
+2021-02-20 17:35:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.10_Observation.mp3> (referer: None)
+2021-02-20 17:35:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.10_Observation.mp3> referred in <None>
+2021-02-20 17:35:59 [scrapy.extensions.logstats] INFO: Crawled 10 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2021-02-20 17:36:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.18_Observation.mp3> (referer: None)
+2021-02-20 17:36:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.18_Observation.mp3> referred in <None>
+2021-02-20 17:36:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.13_Activation_orale.mp3> (referer: None)
+2021-02-20 17:36:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.13_Activation_orale.mp3> referred in <None>
+2021-02-20 17:36:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.16_Observation.mp3> (referer: None)
+2021-02-20 17:36:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.16_Observation.mp3> referred in <None>
+2021-02-20 17:36:59 [scrapy.extensions.logstats] INFO: Crawled 13 pages (at 3 pages/min), scraped 0 items (at 0 items/min)
+2021-02-20 17:37:02 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.09_Activation_orale.mp3> (failed 1 times): User timeout caused connection failure: Getting https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.09_Activation_orale.mp3 took longer than 180.0 seconds..
+2021-02-20 17:37:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.14_Activation_orale.mp3> (referer: None)
+2021-02-20 17:37:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.14_Activation_orale.mp3> referred in <None>
+2021-02-20 17:37:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.12_Activation_orale.mp3> (referer: None)
+2021-02-20 17:37:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.12_Activation_orale.mp3> referred in <None>
+2021-02-20 17:37:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.22_Observation.mp3> (referer: None)
+2021-02-20 17:37:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.22_Observation.mp3> referred in <None>
+2021-02-20 17:37:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.20_Observation.mp3> (referer: None)
+2021-02-20 17:37:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.20_Observation.mp3> referred in <None>
+2021-02-20 17:37:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.17_Activation_orale.mp3> (referer: None)
+2021-02-20 17:37:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.17_Activation_orale.mp3> referred in <None>
+2021-02-20 17:37:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.26_Activation.mp3> (referer: None)
+2021-02-20 17:37:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.26_Activation.mp3> referred in <None>
+2021-02-20 17:37:59 [scrapy.extensions.logstats] INFO: Crawled 19 pages (at 6 pages/min), scraped 0 items (at 0 items/min)
+2021-02-20 17:38:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.19_Activation_orale.mp3> (referer: None)
+2021-02-20 17:38:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.19_Activation_orale.mp3> referred in <None>
+2021-02-20 17:38:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.28_Exercice-test.mp3> (referer: None)
+2021-02-20 17:38:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.28_Exercice-test.mp3> referred in <None>
+2021-02-20 17:38:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.21_Activation_orale.mp3> (referer: None)
+2021-02-20 17:38:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.21_Activation_orale.mp3> referred in <None>
+2021-02-20 17:38:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.27_Activation_orale.mp3> (referer: None)
+2021-02-20 17:38:37 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.27_Activation_orale.mp3> referred in <None>
+2021-02-20 17:38:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.25_Activation_orale.mp3> (referer: None)
+2021-02-20 17:38:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.25_Activation_orale.mp3> referred in <None>
+2021-02-20 17:38:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.24_Observation.mp3> (referer: None)
+2021-02-20 17:38:54 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.24_Observation.mp3> referred in <None>
+2021-02-20 17:38:59 [scrapy.extensions.logstats] INFO: Crawled 25 pages (at 6 pages/min), scraped 0 items (at 0 items/min)
+2021-02-20 17:39:59 [scrapy.extensions.logstats] INFO: Crawled 25 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-02-20 17:39:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.03_Compr%C3%A9hension_auditive_et_.mp3> (referer: None)
+2021-02-20 17:39:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.03_Compr%C3%A9hension_auditive_et_.mp3> referred in <None>
+2021-02-20 17:39:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/index.php>
+{'file_name': ['08.03_Compréhension_auditive_et_.mp3'],
+ 'file_urls': ['https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.03_Compréhension_auditive_et_.mp3']}
+2021-02-20 17:40:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.08_Activation.mp3> (referer: None)
+2021-02-20 17:40:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.08_Activation.mp3> referred in <None>
+2021-02-20 17:40:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/index.php>
+{'file_name': ['08.08_Activation.mp3'],
+ 'file_urls': ['https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.08_Activation.mp3']}
+2021-02-20 17:40:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_12.mp3> (referer: None)
+2021-02-20 17:40:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_12.mp3> referred in <None>
+2021-02-20 17:40:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/index.php>
+{'file_name': ['08.01_Mise_en_oeuvre_12.mp3'],
+ 'file_urls': ['https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_12.mp3']}
+2021-02-20 17:40:59 [scrapy.extensions.logstats] INFO: Crawled 28 pages (at 3 pages/min), scraped 3 items (at 3 items/min)
+2021-02-20 17:41:03 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.00_Texte.mp3> (failed 2 times): User timeout caused connection failure: Getting https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.00_Texte.mp3 took longer than 180.0 seconds..
+2021-02-20 17:41:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.06_Observation.mp3> (referer: None)
+2021-02-20 17:41:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.06_Observation.mp3> referred in <None>
+2021-02-20 17:41:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/index.php>
+{'file_name': ['08.06_Observation.mp3'],
+ 'file_urls': ['https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.06_Observation.mp3']}
+2021-02-20 17:41:17 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_01-03.mp3> (failed 2 times): User timeout caused connection failure: Getting https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_01-03.mp3 took longer than 180.0 seconds..
+2021-02-20 17:41:31 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_04-06.mp3> (failed 2 times): User timeout caused connection failure: Getting https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_04-06.mp3 took longer than 180.0 seconds..
+2021-02-20 17:41:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.11_Observation.mp3> (referer: None)
+2021-02-20 17:41:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.11_Observation.mp3> referred in <None>
+2021-02-20 17:41:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/index.php>
+{'file_name': ['08.11_Observation.mp3'],
+ 'file_urls': ['https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.11_Observation.mp3']}
+2021-02-20 17:41:37 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_07-08.mp3> (failed 2 times): User timeout caused connection failure: Getting https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_07-08.mp3 took longer than 180.0 seconds..
+2021-02-20 17:41:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.07_Observation.mp3> (referer: None)
+2021-02-20 17:41:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.07_Observation.mp3> referred in <None>
+2021-02-20 17:41:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/index.php>
+{'file_name': ['08.07_Observation.mp3'],
+ 'file_urls': ['https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.07_Observation.mp3']}
+2021-02-20 17:41:48 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_09-11.mp3> (failed 2 times): User timeout caused connection failure: Getting https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.01_Mise_en_oeuvre_09-11.mp3 took longer than 180.0 seconds..
+2021-02-20 17:41:54 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.02_Compr%C3%A9hension_auditive_et_.mp3> (failed 2 times): User timeout caused connection failure: Getting https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.02_Compr%C3%A9hension_auditive_et_.mp3 took longer than 180.0 seconds..
+2021-02-20 17:41:59 [scrapy.extensions.logstats] INFO: Crawled 31 pages (at 3 pages/min), scraped 6 items (at 3 items/min)
+2021-02-20 17:42:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.05_Activation_orale.mp3> (referer: None)
+2021-02-20 17:42:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.05_Activation_orale.mp3> referred in <None>
+2021-02-20 17:42:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/index.php>
+{'file_name': ['08.05_Activation_orale.mp3'],
+ 'file_urls': ['https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.05_Activation_orale.mp3']}
+2021-02-20 17:42:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.18_Observation.mp3> (referer: None)
+2021-02-20 17:42:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.18_Observation.mp3> referred in <None>
+2021-02-20 17:42:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/index.php>
+{'file_name': ['08.18_Observation.mp3'],
+ 'file_urls': ['https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.18_Observation.mp3']}
+2021-02-20 17:42:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.16_Observation.mp3> (referer: None)
+2021-02-20 17:42:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.16_Observation.mp3> referred in <None>
+2021-02-20 17:42:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/index.php>
+{'file_name': ['08.16_Observation.mp3'],
+ 'file_urls': ['https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.16_Observation.mp3']}
+2021-02-20 17:42:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.22_Observation.mp3> (referer: None)
+2021-02-20 17:42:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.22_Observation.mp3> referred in <None>
+2021-02-20 17:42:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/index.php>
+{'file_name': ['08.22_Observation.mp3'],
+ 'file_urls': ['https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.22_Observation.mp3']}
+2021-02-20 17:42:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.10_Observation.mp3> (referer: None)
+2021-02-20 17:42:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.10_Observation.mp3> referred in <None>
+2021-02-20 17:42:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/index.php>
+{'file_name': ['08.10_Observation.mp3'],
+ 'file_urls': ['https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.10_Observation.mp3']}
+2021-02-20 17:42:51 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force
+2021-02-20 17:42:51 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2021-02-20 17:42:54 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2021-02-20 17:42:54 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.04_Observation_et_discriminat.mp3. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2021-02-20 17:42:54 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.04_Observation_et_discriminat.mp3> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: >]
+2021-02-20 17:42:54 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.12_Activation_orale.mp3. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2021-02-20 17:42:54 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.12_Activation_orale.mp3> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: >]
+2021-02-20 17:42:54 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.17_Activation_orale.mp3. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2021-02-20 17:42:54 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.17_Activation_orale.mp3> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: >]
+2021-02-20 17:42:54 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.13_Activation_orale.mp3. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2021-02-20 17:42:54 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.13_Activation_orale.mp3> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: >]
+2021-02-20 17:42:54 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.26_Activation.mp3. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2021-02-20 17:42:54 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.26_Activation.mp3> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: >]
+2021-02-20 17:42:54 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.09_Activation_orale.mp3. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2021-02-20 17:42:54 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.09_Activation_orale.mp3> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: >]
+2021-02-20 17:42:54 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.14_Activation_orale.mp3. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2021-02-20 17:42:54 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.14_Activation_orale.mp3> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: >]
+2021-02-20 17:42:54 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.20_Observation.mp3. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2021-02-20 17:42:54 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://polyglot.sps.edu/audio/french/fia_2e/chapitre_08/08.20_Observation.mp3> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: >]
+^C
+E:\Ngoai ngu\French\FIA\Audio\fia>
+
